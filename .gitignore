@@ -3,3 +3,8 @@ __pycache__/
 *.pyc
 chroma_storage/
 uploaded_pdfs/.env
+.env
+uploaded_pdfs/
+.vscode/
+ocr_output.txt
+temp_*.png
