@@ -1,10 +1,30 @@
-﻿venv/
-__pycache__/
-*.pyc
-chroma_storage/
-uploaded_pdfs/.env
+# Environment & Secrets
 .env
+venv/
+.venv/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Vector Database Storage
+chroma_storage/
+
+# Local PDFs & Temporary OCR Artifacts
 uploaded_pdfs/
-.vscode/
-ocr_output.txt
 temp_*.png
+ocr_output.txt
+
+# Editor & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local Debug / Scratch Scripts
+debug.py
+test_*.py
+diagnose_*.py
+ocr_requirement_checkk.py
